@@ -61,7 +61,7 @@ llamaindex-rag-assistant/
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/<your-username>/llamaindex-rag-assistant.git
+git clone https://github.com/ravikirankrishnaprasad/llamaindex-rag-assistant.git
 cd llamaindex-rag-assistant
 ```
 
