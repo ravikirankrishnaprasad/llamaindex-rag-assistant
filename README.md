@@ -35,4 +35,111 @@ This app allows users to dynamically index Wikipedia pages via prompts like `ple
 
 ## 📁 Project Structure
 
+```
+llamaindex-rag-assistant/
+├── app/                        # Python source code
+│   ├── chat_agent.py           # Chainlit app entrypoint
+│   ├── index_wikipages.py      # Wikipedia page loader
+│   └── utils.py                # Helper for config/secrets
+│
+├── config/
+│   └── apikeys.yaml            # API keys and secrets
+│
+├── docs/
+│   ├── chainlit.md             # Default onboarding instructions
+│   └── chainlit.en-GB.md       # Optional locale fallback
+│
+├── .gitignore
+├── chainlit.config.toml        # Chainlit config (markdown path)
+├── requirements.txt
+└── README.md
+```
 
+---
+
+## ⚙️ Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/<your-username>/llamaindex-rag-assistant.git
+cd llamaindex-rag-assistant
+```
+
+2. **Create a Virtual Environment**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate       # macOS/Linux
+.venv\Scripts\activate        # Windows
+```
+
+3. **Install Dependencies**
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+4. **Set Up API Key**
+Edit `config/apikeys.yaml`:
+```yaml
+openai:
+  api_key: sk-...
+```
+
+---
+
+## ▶️ Running the App
+
+Launch the Chainlit assistant:
+```bash
+chainlit run app/chat_agent.py -w
+```
+
+Then visit: [http://localhost:8000](http://localhost:8000)
+
+---
+
+## 🧪 How to Use
+
+- 🗣 Prompt:
+  ```
+  please index: 2023 United States banking crisis
+  ```
+
+- 🤖 Then ask:
+  ```
+  What caused the 2023 US banking crisis?
+  ```
+
+The assistant indexes the page in real-time and responds with grounded, factual insights from Wikipedia.
+
+---
+
+## 🎯 Learning Objectives
+
+- How to integrate **retrieval with LLMs** using LlamaIndex.
+- Building **dynamic conversational agents** with Chainlit.
+- Managing **external data sources** in a RAG pipeline.
+- Structuring clean Python applications for GenAI workflows.
+
+---
+
+## 🚧 Future Improvements
+
+- Add PDF / CSV / Doc ingestion
+- Integrate vector databases (FAISS, Pinecone, Weaviate)
+- Support long-term chat memory and citations
+- Deploy via Docker, Streamlit, or Hugging Face Spaces
+
+---
+
+## 📜 License
+
+Licensed under the [Apache License 2.0](./LICENSE)
+
+---
+
+## 👨‍💻 Author
+
+**Ravikiran Krishnaprasad**  
+Development Architect | AI/ML & GenAI Innovator  
+[GitHub Portfolio](https://github.com/ravikirankrishnaprasad/portfolio) | [LinkedIn](https://linkedin.com/in/ravikirankrishnaprasad)
