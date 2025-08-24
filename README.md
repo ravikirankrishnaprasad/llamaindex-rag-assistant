@@ -1,8 +1,9 @@
-# 📚 LlamaIndex RAG Assistant
+# 🤖 ReAct RAG Assistant
 
-An **LLM-powered conversational assistant** built using **Retrieval Augmented Generation (RAG)** with **LlamaIndex**, **OpenAI**, and **Chainlit**.
+An **AI-powered conversational agent** built using the **ReAct (Reason + Act) pattern** and **Retrieval Augmented Generation (RAG)** with **LlamaIndex, OpenAI, and Chainlit**.  
 
-This app allows users to dynamically index Wikipedia pages via prompts like `please index: <topic>` and engage in intelligent Q&A over those indexed topics.
+With this app, users can dynamically index Wikipedia topics via prompts like `please index: <topic>` and get **fact-grounded, context-aware answers**.
+
 
 ---
 
