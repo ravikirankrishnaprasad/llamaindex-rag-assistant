@@ -113,6 +113,14 @@ Then visit: [http://localhost:8000](http://localhost:8000)
 The assistant indexes the page in real-time and responds with grounded, factual insights from Wikipedia.
 
 ---
+## Test cases:
+<img width="834" height="656" alt="Screenshot 2025-08-24 at 4 06 30 PM" src="https://github.com/user-attachments/assets/c40f815d-365c-45d1-a0ac-0228afbb66c9" />
+
+---
+## ReAct logs:
+<img width="1164" height="467" alt="Screenshot 2025-08-24 at 4 05 55 PM" src="https://github.com/user-attachments/assets/d4b1ad08-a128-4277-951d-969d7d95c8c3" />
+
+
 
 ## 🎯 Learning Objectives
 
