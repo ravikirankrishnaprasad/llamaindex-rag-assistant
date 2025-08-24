@@ -2,7 +2,10 @@
 
 An **AI-powered conversational agent** built using the **ReAct (Reason + Act) pattern** and **Retrieval Augmented Generation (RAG)** with **LlamaIndex, OpenAI, and Chainlit**.  
 
+This project demonstrates how combining **reasoning with retrieval** is one of the **great ways to solve the hallucination problem** in LLMs — by grounding answers in real, verifiable knowledge.
+
 With this app, users can dynamically index Wikipedia topics via prompts like `please index: <topic>` and get **fact-grounded, context-aware answers**.
+
 
 
 ---
