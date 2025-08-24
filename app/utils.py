@@ -1,4 +1,5 @@
-# REPLACE THIS WITH YOUR CODE
+import os
+import yaml
 
 def get_apikey():
     """
@@ -11,11 +12,12 @@ def get_apikey():
     """
     
     # Construct the full path to the configuration file
-    script_dir = "/usercode/"
-    file_path = os.path.join(script_dir, "apikeys.yml")
+    project_root = os.getcwd()
+    file_path = os.path.join(project_root, "apikeys.yml")
 
     with open(file_path, 'r') as yamlfile:
-        # REPLACE THIS WITH YOUR CODE
+        loaded_yamlfile = yaml.safe_load(yamlfile)
+        API_KEY = loaded_yamlfile['openai']['api_key']
         
     return API_KEY
 
