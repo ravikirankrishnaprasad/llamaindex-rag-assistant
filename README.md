@@ -40,7 +40,7 @@ With this app, users can dynamically index Wikipedia topics via prompts like `pl
 ## 📁 Project Structure
 
 ```
-llamaindex-rag-assistant/
+react-rag-assistant/
 ├── app/                        # Python source code
 │   ├── chat_agent.py           # Chainlit app entrypoint
 │   ├── index_wikipages.py      # Wikipedia page loader
@@ -71,7 +71,7 @@ llamaindex-rag-assistant/
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/ravikirankrishnaprasad/llamaindex-rag-assistant.git
+git clone https://github.com/ravikirankrishnaprasad/react-rag-assistant.git
 cd llamaindex-rag-assistant
 ```
 
