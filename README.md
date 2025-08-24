@@ -57,6 +57,12 @@ llamaindex-rag-assistant/
 
 ---
 
+## Flowchart
+
+<img width="1755" height="1604" alt="mermaid-diagram-2025-08-24-205606" src="https://github.com/user-attachments/assets/2687d1b6-1b28-4099-84cd-77e206c1fbc2" />
+
+---
+
 ## ⚙️ Installation
 
 1. **Clone the Repository**
